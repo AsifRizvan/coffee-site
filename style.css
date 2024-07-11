@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    height: 120px;
+    top: 0;
+    background-color: rgb(220, 153, 60);
+}
+.navbar1 img{
+    width: 110px;
+    margin-bottom: 20px;
+}
+.navbar1 p{
+    font-family: 'Black Ops One', cursive;
+    font-size: 750%;
+    margin-left:20px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px black;
+
+}
+.caption{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0px;
+    color: rgb(48, 31, 19); 
+    background-color: rgb(220, 153, 60);
+    font-size: 16px;
+    justify-content: center; 
+    height: 20px;
+}
+.caption h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#home{
+    background-color: rgb(236, 208, 118);
+
+}
+#home .heading1 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+
+.stickyheadphones{
+    position: fixed;
+    bottom: 2%;
+    margin-left: 95%;
+}
+#stickyheadphones img{
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+
+#home .content p{
+    border: 1px solid rgb(48, 31, 19);
+    padding: 50px;
+    margin: 50px;
+    margin-left: 19%;
+    margin-right: 19%;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    line-height: 1.0;
+}
+#typessection{
+    background-color: rgb(236, 208, 118);
+    margin: 0;
+    padding: 0;
+}
+#typessection .heading2 h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+
+#typessection .types{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.types ul {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.types ul li{
+    margin-top: 20px;
+    line-height: 1.2;
+}
+#top-brands-section{
+    background-color: rgb(236, 208, 118);
+
+}
+#top-brands-section .heading3 h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+
+.top-brands{
+    margin-right: 4%;
+    margin-left: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.top-brands img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;   
+}
+
+.firsthead h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 700;
+}
+
+.firstdes{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 25px;
+    line-height: 1.1;
+}
+
+.secondhead h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+
+.seconddes{
+    margin: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 100px;
+    margin-top: 15px;
+    line-height: 1.1;
+}
+.brandimage2{
+    margin-right: 90px;
+}
+
+#gallery{
+    background-color: rgb(236, 208, 118);
+}
+
+#gallery h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;     
+}
+
+.gallerycontainer{
+    background-color: rgb(220, 153, 60);
+    margin-left: 120px !important;
+    margin-right: 120px !important;
+}
+
+.gallerycontainer img{
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transform: scale(0.5s);
+    border-radius: 10px;
+}
+
+.gallerycontainer img:hover{
+    width: 250px;
+    height: 250px;
+    transition: .6s;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+#query{
+    background-color: rgb(236, 208, 118);
+    height: 450px;
+}
+
+#query h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;     
+}
+
+.querycontainer{
+    border: 3px solid rgb(48, 31, 19);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(220, 153, 60);
+}
+
+form{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.b1 .cap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.b2 .inp1{
+    margin-top: 16px;
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+ 
+}
+.b2 .inp2{
+    margin-top: 14px;
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+ 
+}
+
+.b2 textarea{
+    height: 65px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 18px;
+}
+
+.b2{
+    margin-left: 20px;
+}
+.b2:not(:first-child){
+    margin-top: -1px;
+}
+.b2 .btn {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(92, 53, 26);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    transform: scale(0.5s);
+    margin-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    text-shadow: 2px 3px 4px black;
+    border: 2px outset black;
+}
+
+.b2 .btn:hover {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(220, 153, 60);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: .6s;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    border: 2px outset black;
+}
+.b2 .btn p{
+    position: relative;
+    bottom: 5px;
+}
+
+/* footer section */
+#footer{
+    background-color: rgb(236, 208, 118);
+}
+
+.footercontainer{
+    background-color: rgb(220, 153, 60);
+    padding-right: 40px;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.reachhead h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+
+.link{
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.link u{
+    font-size: 13px;
+    font-weight: 540;
+    text-decoration: none;
+}
+
+.copyright{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+.addresshead h1{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+    margin-top: 10px ;
+    margin-bottom: 10px;
+}
+.fulladdress{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(48, 31, 19);;
+}
+.directions{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(126 73 15);
+    font-weight: bolder;
+}
+
+.directions:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+@media  screen and (max-width:1024px) {
+
+    .navbar1 .firstline p{
+        font-family: "Black Ops One", cursive;
+        font-size: 50px;
+        color: rgb(48, 31, 19);
+        text-shadow: -5px 5px 5px black;   
+    }
+    #top-brands-section{
+        background-color: rgb(236, 208, 118);
+        width: 1024px;
+    
+    }
+    
+}
